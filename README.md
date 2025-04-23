@@ -80,7 +80,7 @@ An iOS/Android pure javascript react-native component that renders your HTML int
 
 ### This forked version
 
-This fork from the original only removes dependency spefications from the file packages.json (in subdir packages).  For reasons inherent to the npm universe, devDependencies ensures correct dependencies, but those from the original projects have not been updated, causing some errors during execution.  This removal does not make it suitable for the react native repositories, but is a quick fix if this package is downloaded locally in the 'module' directory.
+***This fork from the original only removes dependency spefications from the file packages.json (in subdir packages).  For reasons inherent to the npm universe, devDependencies ensures correct dependencies, but those from the original projects have not been updated, causing some errors during execution.  This removal does not make it suitable for the react native repositories, but is a quick fix if this package is downloaded locally in the 'module' directory.***
 
 
 ### 🗃️ Releases
