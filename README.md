@@ -78,6 +78,11 @@ An iOS/Android pure javascript react-native component that renders your HTML int
     <a href="https://meliorence.github.io/react-native-render-html/blog/2021/06/27/create-blog-app-rnrh-I"><img width="320" height="744" src="https://github.com/meliorence/react-native-render-html/raw/master/assets/demo.gif"></a>
 </p>
 
+### This forked version
+
+This fork from the original only removes dependency spefications from the file packages.json (in subdir packages).  For reasons inherent to the npm universe, devDependencies ensures correct dependencies, but those from the original projects have not been updated, causing some errors during execution.  This removal does not make it suitable for the react native repositories, but is a quick fix if this package is downloaded locally in the 'module' directory.
+
+
 ### 🗃️ Releases
 
 **The Foundry (v6) release is finally stable, and is now-on the recommended
